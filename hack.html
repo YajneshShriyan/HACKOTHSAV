@@ -3,31 +3,31 @@
 <head>
     <title>Registration Form</title>
     <link rel="stylesheet" href="hack1.css" type="text/css">
-</head>
+    </head>
 <body>
     <div class="main">
     <div class="register">
         <h2>Register Here</h2>
-        <form id="register" method="post" action="main.html" >
+        <form id="register" method="post" action="final.html" >
         <label>First name : </label>
         <br>
-        <input type="text" name="Firstname" id="name" placeholder="Enter your first name">
+        <input type="text" name="Firstname" id="name" placeholder="Enter your first name" required>
         <br><br>
         <label>Last name :</label>
         <br>
-        <input type="text" name="lastname" id="name" placeholder="Enter your last name">
+        <input type="text" name="lastname" id="name" placeholder="Enter your last name" required>
         <br><br>
         <label>Age :</label>
         <br>
-        <input type="number" name="age" id="name" placeholder="Enter your age">
+        <input type="number" name="age" id="name" placeholder="Enter your age" required>
         <br><br>
         <label>Email :</label>
         <br>
-        <input type="email" name="email" id="name" placeholder="Enter your email">
+        <input type="email" name="email" id="name" placeholder="Enter your email" required>
         <br><br>
         <label>Address :</label>
         <br>
-        <input type="text" name="Address" id="name" placeholder="Enter your Address">
+        <input type="text" name="Address" id="name" placeholder="Enter your Address" required>
         <br><br> 
         <label>Gender :</label>
         <br>
@@ -46,11 +46,11 @@
         
         <label> Aadhar card number : </label>
         <br>
-        <input type="number" name="number" id="name" placeholder="Enter your Aadhar number">
+        <input type="number" name="number" id="name" placeholder="Enter your Aadhar number" size="12" required >
         <br><br>
         <label> Phone number : </label>
         <br>
-        <input type="number" name="number" id="name" placeholder="Enter your Phone number">
+        <input type="number" id="phone" name="phone" placeholder="Enter your phone number" required>
         <br><br>
         <input type="submit" value="submit" name="submit" id="submit">
     </form>
